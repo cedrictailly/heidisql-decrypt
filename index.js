@@ -121,7 +121,7 @@ program.action(async (filename, options, command) =>
 
   // console.log(server);
 
-  let resume = {
+  let report = {
     Host      : server.Host,
     Port      : server.Port,
     Databases : server.Databases,
@@ -135,9 +135,9 @@ program.action(async (filename, options, command) =>
      'SSHtunnelHostPort',
      'SSHtunnelUser',
      'SSHtunnelPrivateKey',
-     'SSHtunnelPort'].forEach(name => { if ( server[name] !== undefined ) resume[name] = server[name]; })
+     'SSHtunnelPort'].forEach(name => { if ( server[name] !== undefined ) report[name] = server[name]; })
 
-  console.table(resume);
+  console.table(report);
 });
 
 try {
