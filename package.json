@@ -1,0 +1,15 @@
+{
+  "name": "heidisql-decrypt",
+  "version": "1.0.0",
+  "description": "Parse HeidiSQL portable_settings.txt file and decrypt passwords.",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-select": "^1.1.2",
+    "commander": "^8.3.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
